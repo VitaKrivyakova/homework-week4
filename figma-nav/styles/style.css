@@ -1,0 +1,128 @@
+html {
+  width: 1280px;
+}
+.header {
+  font-family: "Inter", sans-serif;
+  width: 1280px;
+  height: 80px;
+  background-color: #ffffff;
+}
+
+nav {
+  display: flex;
+  width: 1280px;
+}
+
+.logo {
+  width: 159px;
+  height: 43px;
+  margin: 16px 16px;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+}
+.list-option {
+  padding-right: 20px;
+  font-size: 16px;
+}
+
+.list-option:last-child {
+  padding-left: 30px;
+}
+#list-option-special {
+  font-size: 14px;
+  margin: 0;
+}
+.button {
+  border-radius: 8px;
+  border-width: 1px;
+  background-color: #ded8d8;
+  padding: 5px 10px;
+}
+
+.button-call {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border-width: 1px;
+}
+
+.social {
+  height: 18px;
+  width: 18px;
+}
+
+.call {
+  width: 24px;
+  height: 24px;
+}
+
+.main {
+  background-image: url(../images/mainpic.png);
+  background-size: cover;
+  width: 100vw;
+  height: 85vh;
+}
+.adress {
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 50px;
+  color: #ffffff;
+  font-family: "Pacifico", italic;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.title {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  text-align: left;
+  width: 680px;
+  height: 144px;
+  padding-top: calc(156px - 80px - 36px);
+  padding-left: 50px;
+  margin: 0;
+}
+
+.button-choose {
+  font-family: "Inter", sans-sefir;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  width: 289px;
+  height: 61px;
+  margin-top: 40px;
+  margin-left: 50px;
+  padding: 9px, 57px, 9px, 57px;
+  border-radius: 10px;
+
+  background-color: #4c71e9;
+  background-image: url(../images/Group\ 11.png);
+  background-repeat: no-repeat;
+  background-position: 230px;
+  text-align: left;
+  color: #f1f1f1;
+}
+
+.button-footer {
+  font-family: "Lobster", sans-serif;
+  margin: 40px;
+  width: 230px;
+  height: 80px;
+  border-radius: 10px;
+  margin-top: 180px;
+}
+#office {
+  background-color: #4c71e9;
+  background-image: url(../images/Frame\ 60.png);
+  background-repeat: no-repeat;
+  background-position: 2em;
+}
