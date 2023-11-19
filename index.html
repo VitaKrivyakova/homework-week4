@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <title>Сампсониевский</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <img class="logo" src="./images/logo.png" alt="лого" />
+        <ul class="list">
+          <li class="list-option">
+            <button class="button">Ипотека от 0.1%</button>
+          </li>
+          <li class="list-option">Акции</li>
+          <li>
+            <label for="plan"></label
+            ><select id="plan" style="border: none; appearance: none" required>
+              <option value="">Планировки</option>
+              <option value="catalog">Каталог</option>
+              <option value="floor-plane">Поэтажный план</option>
+              <option value="interactive">Интерактив</option>
+              <option value="chess">Вэб-Шахматка</option>
+            </select>
+          </li>
+          <li class="list-option">Q&A</li>
+          <li class="list-option">О компании</li>
+          <div>
+            <li class="list-option">+7 (999) 999-99-99</li>
+            <li id="list-option-special">
+              10:00 - 19:00
+              <img
+                class="social"
+                src="./images/mingcute_whatsapp-fill.png"
+                alt="whatsapp.icon"
+              />
+              <img
+                class="social"
+                src="./images/cib_telegram.png"
+                alt="telegram.icon"
+              />
+              <img
+                class="social"
+                src="./images/entypo-social_vk-with-circle.png"
+                alt="vk.icon"
+              />
+            </li>
+          </div>
+          <li class="list-option">
+            <button class="button-call">
+              <img class="call" src="./images/call.png" alt="звонок" />Заказать
+              звонок
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <p class="adress">
+        г. Санкт-Петербург,<br />
+        пр. Большой Сампсониевский, д. 29б
+      </p>
+      <p class="title">
+        Дом с историей<br />в центре Санкт-Петербурга<br />
+        для жизни, бизнеса, офиса
+      </p>
+      <button class="button-choose">Выбрать планировку</button>
+      <footer>
+        <button class="button-footer">Апартаменты</button>
+        <button class="button-footer" id="office">Офисы</button>
+        <button class="button-footer">Коммерческие помещения</button>
+        <button class="button-footer">Кладовые</button>
+      </footer>
+    </main>
+  </body>
+</html>
